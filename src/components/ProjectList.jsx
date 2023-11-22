@@ -57,7 +57,7 @@ const ProjectList = ({ projects }) => {
         )}
       </motion.section>
 
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 300 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -78,7 +78,7 @@ const ProjectList = ({ projects }) => {
             See more <BsChevronDown />
           </TransparentButton>
         )}
-      </motion.section>
+      </motion.section> */}
     </Container>
     
   );

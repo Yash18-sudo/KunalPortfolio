@@ -15,12 +15,13 @@ const Intro = () => {
         transition={{ duration: 0.5 }}
       >
         <Wrapper>
-          <MyImg src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeMPmnir3lH0ZRj0qpdowYY1RBh09AxOACvg&usqp=CAU" alt='Yash Bahuguna' loading='lazy' />
+          <MyImg src='./imgs/profile.jpeg' alt='Yash Bahuguna' loading='lazy' />
+          {/* <Image src='./imgs/contact.svg' alt='' /> */}
           <Description>
             <Heading>Yash Bahuguna</Heading>
-            <Title>Frontend Developer</Title>
+            <Title>Full-Stack Developer</Title>
             <Bio>
-              Passionate about Technoloy and Startups | Life long learner
+              Passionate about Technology and Startups | Life long learner
             </Bio>
             <HighlightedLink href={resume} target='_blank'>
               Download Resume <FiDownload />

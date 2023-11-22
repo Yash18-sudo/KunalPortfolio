@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     company: 'Cisco AICTE Vitual Internship Program',
-    role: 'Virtal Intern',
+    role: 'Virtual Intern',
     fromDate: new Date('2022-07-01'),
     toDate: new Date('2022-08-01'),
     tasks: [
