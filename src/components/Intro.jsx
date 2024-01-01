@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Container, HighlightedLink } from '../styles/globalStyles';
-import resume from '../assets/Resume_YashBahuguna_2023.pdf';
+import resume from '../assets/YashBahuguna_Software Engineer.pdf';
 import { FiDownload } from 'react-icons/fi';
 import { BsGithub, BsLinkedin} from 'react-icons/bs';
 import {MdEmail} from 'react-icons/md';
