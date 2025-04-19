@@ -15,13 +15,13 @@ const Intro = () => {
         transition={{ duration: 0.5 }}
       >
         <Wrapper>
-          <MyImg src='./imgs/profile.jpeg' alt='Yash Bahuguna' loading='lazy' />
+          <MyImg src='./imgs/profile.jpeg' alt='Kunal Pandey' loading='lazy' />
           {/* <Image src='./imgs/contact.svg' alt='' /> */}
           <Description>
-            <Heading>Yash Bahuguna</Heading>
-            <Title>Full-Stack Developer</Title>
+            <Heading>Kunal Pandey</Heading>
+            <Title>2D & 3D Motion Graphic Designer</Title>
             <Bio>
-              Passionate about Technology and Startups | Life long learner
+              Passionate about Designing | Life long learner
             </Bio>
             <HighlightedLink href={resume} target='_blank'>
               Download Resume <FiDownload />
@@ -37,7 +37,7 @@ const Intro = () => {
                 <BsLinkedin />
               </Icon>
               <Icon
-                href='mailto:yashbahuguna043@gmail.com'
+                href='mailto:kunalpandeykp18@gmail.com'
                 target='_blank'
               >
                 <MdEmail />

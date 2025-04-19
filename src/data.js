@@ -160,64 +160,49 @@ const projects = [
 
 const skills = [
   {
-    icon: 'html',
-    title: 'HTML',
+    icon: "adobe",
+    title: "Adobe Suite",
   },
   {
-    icon: 'css',
-    title: 'CSS',
+    icon: "adobe-ae",
+    title: "After Effects",
   },
   {
-    icon: 'javascript',
-    title: 'JavaScript',
+    icon: "adobe-pr",
+    title: "Premiere Pro",
   },
   {
-    icon: 'typescript',
-    title: 'TypeScript',
+    icon: "photoshop",
+    title: "Photoshop",
   },
   {
-    icon: 'react',
-    title: 'React.js',
+    icon: "illustrator",
+    title: "Illustrator",
   },
   {
-    icon: 'redux',
-    title: 'Redux',
+    icon: "nuke",
+    title: "Nuke",
   },
   {
-    icon: 'tailwindcss',
-    title: 'TailwindCSS',
+    icon: "maya",
+    title: "Maya",
+  },
+
+  {
+    icon: "figma",
+    title: "Figma",
   },
   {
-    icon: 'firebase',
-    title: 'Firebase',
+    icon: "Canva",
+    title: "Canva",
   },
   {
-    icon: 'nodejs',
-    title: 'Node.js',
+    icon: "html-5",
+    title: "HTML",
   },
   {
-    icon: 'sass',
-    title: 'Sass',
-  },
-  {
-    icon: 'git',
-    title: 'Git',
-  },
-  {
-    icon: 'figma',
-    title: 'Figma',
-  },
-  {
-    icon: 'github',
-    title: 'Github',
-  },
-  {
-    icon: 'babel',
-    title: 'Babel',
-  },
-  {
-    icon: 'webpack',
-    title: 'Webpack',
+    icon: "css3",
+    title: "CSS",
   },
 ];
 
