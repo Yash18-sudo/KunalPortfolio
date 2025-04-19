@@ -9,7 +9,7 @@ This is my personal portfolio website where on can know more about my work and a
 ## How to use
 1. Clone the repo
 ``` bash
-git clone https://github.com/DineshRout779/my-portfolio
+git clone https://github.com/Yash18-sudo/Portfolio.git
 ```
 
 2. Install dependencies
