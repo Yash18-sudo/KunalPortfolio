@@ -4,14 +4,9 @@ import { Container } from '../styles/globalStyles';
 const contactIcons = [
   {
     url: './icons/gmail.svg',
-    linkTo: 'mailto:yashbahuguna043@gmail.com',
+    linkTo: 'mailto:kunalpandeykp18@gmail.com',
     altText: 'gmail',
-  },
-  {
-    url: './icons/linkedin.svg',
-    linkTo: 'https://www.linkedin.com/in/yash-bahuguna-5373b4185/',
-    altText: 'linkedin',
-  },
+  }
 ];
 
 const Freelance = () => {
@@ -19,10 +14,10 @@ const Freelance = () => {
     <Container>
       <Wrapper>
         <TextWrapper>
-          <Heading>Looking for a Full-Stack/Front-End Developer?</Heading>
+          <Heading>Looking for a Graphic/Motion Designer?</Heading>
           <Text>
-            I'm a Developer eager to tackle challenging projects. Let's
-            collaborate on something awesome! 🚀
+            I'm a creative designer eager to craft impactful visuals and bring
+            ideas to life. Let's collaborate on something amazing! 🎨✨🔮
           </Text>
 
           <IconsWrapper>
@@ -33,7 +28,7 @@ const Freelance = () => {
             ))}
           </IconsWrapper>
         </TextWrapper>
-        <Image src='./imgs/freelance.svg' alt='' />
+        <Image src="./imgs/freelance.svg" alt="" />
       </Wrapper>
     </Container>
   );

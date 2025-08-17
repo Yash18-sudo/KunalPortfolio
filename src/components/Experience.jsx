@@ -5,24 +5,23 @@ import { motion } from 'framer-motion';
 const data = [
   {
     id: 1,
-    company: 'Cisco AICTE Vitual Internship Program',
-    role: 'Virtual Intern',
-    fromDate: new Date('2022-07-01'),
-    toDate: new Date('2022-08-01'),
+    company: "Columbus Public School",
+    role: "Motion Graphic Designer",
+    fromDate: new Date("2023-10-01"),
+    toDate: new Date(),
     tasks: [
-      'Successfully completed the Cisco AICTE Virtual Internship Program, gaining hands-on experience in networking and IT infrastructure',
-      ' Acquired practical skills and knowledge in Cisco technologies, enhancing readiness for a career in IT and networking.',
+      "Working as a Motion Graphic Designer is a fulfilling and creative journey",
+      " I enjoy designing engaging visual content that captures attention, enhances the learning experience, and brings innovative storytelling. It’s a role that truly inspires me daily",
     ],
   },
   {
     id: 2,
-    company: 'AICTE Future Ready Talent Program',
-    role: 'Virtual Intern',
-    fromDate: new Date('2022-04-01'),
-    toDate: new Date('2022-06-01'),
+    company: "Arena Animation",
+    role: "3D Artist",
+    fromDate: new Date("2023-04-01"),
+    toDate: new Date("2023-09-01"),
     tasks: [
-      'Successfully completed the Future Ready Talent Virtual Internship program, gaining practical knowledge and hands-on experience with Microsoft Azure cloud services',
-      'Demonstrated proficiency in Azure by successfully deploying a static website on the Microsoft Azure platform, showcasing practical skills in cloud computing and web hosting',
+      "I love working as a 3D artist at Arena Animation Haldwani—it's creative, inspiring, and fuels my passion daily",
     ],
   },
 ];
@@ -51,6 +50,23 @@ const Experience = () => {
     );
   };
 
+  const formatDuration = (dateFrom, dateTo) => {
+  const totalMonths = monthDiff(dateFrom, dateTo);
+  const years = Math.floor(totalMonths / 12);
+  const months = totalMonths % 12;
+
+  let result = "";
+  if (years > 0) {
+    result += `${years} ${years > 1 ? "Years" : "Year"}`;
+  }
+  if (months > 0) {
+    if (result) result += " ";
+    result += `${months} ${months > 1 ? "Months" : "Month"}`;
+  }
+  return result || "Less than a month";
+};
+
+
   return (
     <Container>
       <motion.div
@@ -72,15 +88,15 @@ const Experience = () => {
 
                   <small>
                     {months[ex.fromDate.getMonth()] +
-                      ' ' +
-                      ex.fromDate.getFullYear()}{' '}
-                    -{' '}
-                    {months[ex.toDate.getMonth()] +
-                      ' ' +
-                      ex.toDate.getFullYear()}{' '}
-                    ({monthDiff(ex.fromDate, ex.toDate)}{' '}
-                    {monthDiff(ex.fromDate, ex.toDate) > 1 ? 'Months' : 'Month'}
-                    )
+                      " " +
+                      ex.fromDate.getFullYear()}{" "}
+                    -{" "}
+                    {ex.toDate
+                      ? months[ex.toDate.getMonth()] +
+                        " " +
+                        ex.toDate.getFullYear()
+                      : "Present"}{" "}
+                    ({formatDuration(ex.fromDate, ex.toDate || new Date())})
                   </small>
                 </ExperieceHeader>
 

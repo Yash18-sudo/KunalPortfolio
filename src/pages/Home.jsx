@@ -14,7 +14,7 @@ const Home = () => {
       <Intro />
       <Experience />
       <Skills skills={skills} />
-      <ProjectList projects={projects.slice(0, 3)} />
+      {/* <ProjectList projects={projects.slice(0, 3)} /> */}
       <Freelance />
       {/* <SpotifyStatus /> */}
     </div>

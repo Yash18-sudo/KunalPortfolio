@@ -21,10 +21,10 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       { index: true, element: <Home /> },
-      { path: 'projects', element: <Projects /> },
+      // { path: 'projects', element: <Projects /> },
       { path: 'contact', element: <Contact /> },
       { path: 'resources', element: <Resources /> },
-      { path: 'feedback', element: <Feedback /> },
+      // { path: 'feedback', element: <Feedback /> },
     ],
   },
 ]);

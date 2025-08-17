@@ -160,27 +160,27 @@ const projects = [
 
 const skills = [
   {
-    icon: "adobe",
+    icon: "Adobe Creative Cloud-01",
     title: "Adobe Suite",
   },
   {
-    icon: "adobe-ae",
+    icon: "AE-01",
     title: "After Effects",
   },
   {
-    icon: "adobe-pr",
+    icon: "PR-01",
     title: "Premiere Pro",
   },
   {
-    icon: "photoshop",
+    icon: "PS-01",
     title: "Photoshop",
   },
   {
-    icon: "illustrator",
+    icon: "AI-01",
     title: "Illustrator",
   },
   {
-    icon: "nuke",
+    icon: "icons8-nuke-48",
     title: "Nuke",
   },
   {
@@ -189,19 +189,19 @@ const skills = [
   },
 
   {
-    icon: "figma",
+    icon: "icons8-figma",
     title: "Figma",
   },
   {
-    icon: "Canva",
+    icon: "icons8-canva",
     title: "Canva",
   },
   {
-    icon: "html-5",
+    icon: "icons8-html5",
     title: "HTML",
   },
   {
-    icon: "css3",
+    icon: "icons8-css3",
     title: "CSS",
   },
 ];

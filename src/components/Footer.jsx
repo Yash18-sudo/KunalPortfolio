@@ -9,37 +9,36 @@ const Footer = () => {
       <FooterWrapper>
         <Row>
           <Col>
-            <ColTitle>Socials</ColTitle>
+            <ColTitle>Easy to Contact</ColTitle>
 
-            <SiteLink href='https://github.com/Yash18-sudo' target='_blank'>
-              Github
+            <SiteLink href="tel:9720353248" target="_blank">
+              Call
+            </SiteLink>
+            <SiteLink href="mailto:kunalpandeykp18@gmail.com" target="_blank">
+              Email
             </SiteLink>
             <SiteLink
-              href='https://www.linkedin.com/in/yash-bahuguna-5373b4185/'
-              target='_blank'
+              href="https://www.linkedin.com/in/kunal-pandey-042006263"
+              target="_blank"
             >
-              LinkedIn
-            </SiteLink>
-            <SiteLink href='https://leetcode.com/Yashbahuguna/' target='_blank'>
-              Leetcode
+              Linkedin
             </SiteLink>
           </Col>
           {/* col 2 */}
           <Col>
             <ColTitle>Quick Links</ColTitle>
-            <SiteRouterLink to='/'>About</SiteRouterLink>
-            <SiteRouterLink to='/projects'>Projects</SiteRouterLink>
-            <SiteRouterLink to='/contact'>Contact</SiteRouterLink>
+            <SiteRouterLink to="/">About</SiteRouterLink>
+            {/* <SiteRouterLink to='/projects'>Projects</SiteRouterLink> */}
+            <SiteRouterLink to="/contact">Contact</SiteRouterLink>
           </Col>
           {/* col 3 */}
-          <Col>
+          {/* <Col>
             <ColTitle>Other</ColTitle>
             <SiteRouterLink to='/resources'>Resources</SiteRouterLink>
             <SiteRouterLink to='/feedback'>Feedback</SiteRouterLink>
-          </Col>
+          </Col> */}
         </Row>
       </FooterWrapper>
-
     </Container>
   );
 };

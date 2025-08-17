@@ -6,14 +6,9 @@ import { Container } from '../styles/globalStyles';
 const contactIcons = [
   {
     url: './icons/gmail.svg',
-    linkTo: 'mailto:yashbahuguna043@gmail.com',
+    linkTo: 'mailto:kunalpandeykp18@gmail.com',
     altText: 'gmail',
-  },
-  {
-    url: './icons/linkedin.svg',
-    linkTo: 'https://www.linkedin.com/in/yash-bahuguna-5373b4185/',
-    altText: 'linkedin',
-  },  
+  }
 ];
 
 const container = {
@@ -48,11 +43,11 @@ const Contact = () => {
           <Heading>Contact</Heading>
 
           <Text>
-            I'm currently looking for internships/Full-time roles as a Software developer/Full-stack developer/Front-End Developer. Have an
-            opening? Please reach out to me.
+            I'm currently seeking full-time roles as a Graphic Designer/Motion
+            Designer/Creative Designer Have an opening? Please reach out to me.
           </Text>
 
-          <IconsWrapper variants={container} initial='hidden' animate='visible'>
+          <IconsWrapper variants={container} initial="hidden" animate="visible">
             {contactIcons.map((icon, i) => (
               <IconLink href={icon.linkTo} key={i} variants={item}>
                 <img src={icon.url} alt={icon.altText} />
@@ -61,7 +56,7 @@ const Contact = () => {
           </IconsWrapper>
         </TextWrapper>
         <ImageWrapper>
-          <Image src='./imgs/contact.svg' alt='' />
+          <Image src="./imgs/contact.svg" alt="" />
         </ImageWrapper>
       </Wrapper>
     </Container>

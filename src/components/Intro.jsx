@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Container, HighlightedLink } from '../styles/globalStyles';
-import resume from '../assets/YashBahuguna_Software Engineer.pdf';
+import resume from '../assets/KunalPandey_Resume.pdf';
 import { FiDownload } from 'react-icons/fi';
 import { BsGithub, BsLinkedin} from 'react-icons/bs';
-import {MdEmail} from 'react-icons/md';
+import {MdEmail, MdCall} from 'react-icons/md';
 
 const Intro = () => {
   return (
@@ -15,34 +15,22 @@ const Intro = () => {
         transition={{ duration: 0.5 }}
       >
         <Wrapper>
-          <MyImg src='./imgs/profile.jpeg' alt='Kunal Pandey' loading='lazy' />
+          <MyImg src="./imgs/profile.png" alt="Kunal Pandey" loading="lazy" />
           {/* <Image src='./imgs/contact.svg' alt='' /> */}
           <Description>
             <Heading>Kunal Pandey</Heading>
             <Title>2D & 3D Motion Graphic Designer</Title>
-            <Bio>
-              Passionate about Designing | Life long learner
-            </Bio>
-            <HighlightedLink href={resume} target='_blank'>
+            <Bio>Passionate about Designing | Life long learner</Bio>
+            <HighlightedLink href={resume} target="_blank">
               Download Resume <FiDownload />
             </HighlightedLink>
             <IconsWrapper>
-              <Icon href='https://github.com/Yash18-sudo' target='_blank'>
-                <BsGithub />
-              </Icon>
-              <Icon
-                href='https://www.linkedin.com/in/yash-bahuguna-5373b4185/'
-                target='_blank'
-              >
-                <BsLinkedin />
-              </Icon>
-              <Icon
-                href='mailto:kunalpandeykp18@gmail.com'
-                target='_blank'
-              >
+              <Icon href="mailto:kunalpandeykp18@gmail.com" target="_blank">
                 <MdEmail />
               </Icon>
-              
+              <Icon href="tel:9720353248">
+                <MdCall />
+              </Icon>
             </IconsWrapper>
           </Description>
         </Wrapper>
