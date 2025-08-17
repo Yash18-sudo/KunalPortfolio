@@ -197,6 +197,14 @@ const skills = [
     title: "Canva",
   },
   {
+    icon: "icons8-photography-100",
+    title: "Photography",
+  },
+  {
+    icon: "icons8-videography-64",
+    title: "Videography",
+  },
+  {
     icon: "icons8-html5",
     title: "HTML",
   },

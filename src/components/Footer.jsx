@@ -11,8 +11,17 @@ const Footer = () => {
           <Col>
             <ColTitle>Easy to Contact</ColTitle>
 
-            <SiteLink href="tel:9720353248" target="_blank">
-              Call
+            <SiteLink
+              href="https://www.shutterstock.com/g/Kp18"
+              target="_blank"
+            >
+              ShutterStock
+            </SiteLink>
+            <SiteLink
+              href="https://www.youtube.com/@kunalpandey1818"
+              target="_blank"
+            >
+              Youtube
             </SiteLink>
             <SiteLink href="mailto:kunalpandeykp18@gmail.com" target="_blank">
               Email
