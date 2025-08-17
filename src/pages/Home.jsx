@@ -7,7 +7,7 @@ import Skills from '../components/Skills';
 import { data } from '../data';
 
 const Home = () => {
-  const { projects, skills } = data;
+  const { skills } = data;
 
   return (
     <div>
