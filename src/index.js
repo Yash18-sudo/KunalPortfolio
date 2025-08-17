@@ -6,11 +6,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Error from './pages/Error';
 import Home from './pages/Home';
 import { AppContextProvider } from './context/AppContext';
-import Projects from './pages/Projects';
+
 import Contact from './pages/Contact';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import Resources from './pages/Resources';
-import Feedback from './pages/Feedback';
+
 
 const queryClient = new QueryClient();
 

@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { Container, HighlightedLink } from '../styles/globalStyles';
 import resume from '../assets/KunalPandey_Resume.pdf';
 import { FiDownload } from 'react-icons/fi';
-import { BsGithub, BsLinkedin} from 'react-icons/bs';
 import {MdEmail, MdCall} from 'react-icons/md';
 
 const Intro = () => {
